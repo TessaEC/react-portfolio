@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# react-portfolio
+This is app is a personal portfolio published with gh-pages and is created using React. Challenge 20 for Full Stack coding bootcamp
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
