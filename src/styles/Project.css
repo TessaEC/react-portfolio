@@ -3,26 +3,28 @@ h5 {
     font-size: 1rem;
     color: rgb(255, 254, 254);
     text-align: center;
-
 }
 
-a {
-    text-decoration: none;
+h5:hover{
+    color: rgb(255, 254, 254);
+    text-shadow: 2px 2px 2px #050505;
+    font-size: 1.2rem;
 }
 
-.card {
-    padding: 20px;
-    margin: 20px;
-    max-width: fit-content;
-    background-color: #f0ebeb00;
-    border-radius: 20px;
-  }
+:root a {
+   text-decoration: none;
+}
 
 .flex-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: #fafbfc00;
+}
+
+.container-styling {
+    display: flex;
+    justify-content: center;
 }
 
 .pic-1, 

@@ -14,6 +14,7 @@ function App() {
 
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
+      
       return <AboutMe />
     }
     if (currentPage === 'Portfolio') {

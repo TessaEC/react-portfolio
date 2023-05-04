@@ -1,4 +1,12 @@
 /* Global styles */
+:root .card{
+  padding: 20px;
+  margin: 20px;
+  max-width: fit-content;
+  background-color: #f0ebeb00;
+  border-radius: 20px; /* Your custom value here */
+}
+
 html {
   margin: 2% 20%;
   padding: 5%
@@ -21,6 +29,11 @@ header {
   padding: 20px 0;
 }
 
+h1 {
+  color: rgb(255, 254, 254);
+  text-shadow: 3px 3px 3px #050505;
+}
+
 footer {
   padding: 20px 0;
 }
@@ -39,9 +52,14 @@ nav {
   flex-direction: column;
 }
 
-.navbar {
+.nav-bar{
   gap: 1rem;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul:hover {
+  text-decoration: underline !important;
 }
 
 .container {
