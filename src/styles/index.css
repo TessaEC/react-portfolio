@@ -1,26 +1,27 @@
 /* Global styles */
+html {
+  margin: 2% 20%;
+  padding: 5%
+}
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aquamarine;
+  background: url(../assets/image3.jpg);
+  background-position: relative;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
-  border-bottom: 1px solid #eee;
   padding: 20px 0;
 }
 
 footer {
-  background-color: #fff;
-  border-top: 1px solid #eee;
   padding: 20px 0;
 }
 
@@ -31,22 +32,27 @@ nav {
   padding: 20px;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
 .navbar {
   gap: 1rem;
-  display: flex;
   justify-content: flex-end;
-
 }
 
 .container {
   max-width: 860px;
-  margin: 0 auto;
-  background-color: azure;
-}
-
-.card {
-  background-color: #fff;
-  border-radius: 5px;
-  padding: 10px 20px 30px;
-  margin-top: 50px;
+  margin: 2%;
+  padding: 2%;
+  color:rgb(255, 254, 254);
+  background-color: hwb(32 36% 47%);
+  border-radius: 2px;
+  box-shadow: #181818 0px 2px 5px 3px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

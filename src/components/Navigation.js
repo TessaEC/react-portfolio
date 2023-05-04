@@ -2,16 +2,13 @@ import React from 'react';
 import '../styles/index.css';
 
 
-export function Navigation() {
+export default function Navigation({setCurrentPage}) {
     return (
         <nav className="navbar">
-            <a href="#about-me">About Me</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact Info</a>
-            <a href="#resume">Resume</a>
+            <ul onClick={()=>setCurrentPage('AboutMe')}>About Me</ul>
+            <ul onClick={()=>setCurrentPage('Portfolio')}>Portfolio</ul>
+            <ul onClick={()=>setCurrentPage('Contact')}>Contact</ul>
+            <ul onClick={()=>setCurrentPage('Resume')}>Resume</ul>
         </nav>
     )
 }
-
-
-export default Navigation;

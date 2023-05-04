@@ -2,15 +2,12 @@ import React from 'react';
 import '../styles/index.css';
 
 
-export function Footer() {
+export default function Footer() {
     return (
-        <footer>
+        <footer className='container'>
             <div>
-                <h1>Footer</h1>
+                <h2>Footer</h2>
             </div>
         </footer>
     )
 }
-
-
-export default Footer;

@@ -3,14 +3,11 @@ import Navigation from './Navigation';
 import '../styles/index.css';
 
 
-export function Header() {
+export default function Header({setCurrentPage}) {
     return (
-        <header>
-                <h1>Header</h1>
-                <Navigation />
+        <header className='container'>
+                <h1>Tessa Carlson</h1>
+                <Navigation setCurrentPage={setCurrentPage}/>
         </header>
     )
 }
-
-
-export default Header;

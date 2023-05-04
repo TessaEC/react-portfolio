@@ -1,0 +1,37 @@
+/* Project component Style */
+h5 {
+    font-size: 1rem;
+    color: rgb(255, 254, 254);
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    padding: 20px;
+    margin: 20px;
+    max-width: fit-content;
+    background-color: #f0ebeb00;
+    border-radius: 20px;
+  }
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #fafbfc00;
+}
+
+.pic-1, 
+.pic-2,
+.pic-3,
+.pic-4,
+.pic-5,
+.pic-6{
+    display: flex;
+    border-radius: 2px;
+    box-shadow: #181818 0px 2px 5px 3px;
+}
