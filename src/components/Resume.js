@@ -6,8 +6,10 @@ import { Button } from 'react-bootstrap';
 export default function Resume() {
     return (
         <div className='container'>
-            <Button attribute="download" href={resume}>Download My Resume</Button>
-<div>
+            <div className='flex-btn' >
+            <Button className='btn-style' attribute="download" href={resume}>Download My Resume</Button>
+            </div>
+        <div>
             <h5>Front-End Proficiencies</h5>
             <li>HTML</li>
             <li>CSS</li>

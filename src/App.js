@@ -5,12 +5,14 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Welcome from './components/Welcome';
 import './styles/index.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Portfolio')
+  const [currentPage, setCurrentPage] = useState('Welcome')
 
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
@@ -25,6 +27,9 @@ function App() {
     }
     if (currentPage === 'Resume') {
       return <Resume />
+    }
+    if (currentPage === 'Welcome') {
+      return <Welcome />
     }
   }
   return (

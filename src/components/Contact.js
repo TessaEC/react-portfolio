@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import validateEmail from '../utils/helpers';
 import '../styles/Contact.css';
+import { Form } from 'react-bootstrap';
 
 export default function Contact() {
     const [name, setName] = useState('');
@@ -51,7 +52,7 @@ export default function Contact() {
   
     return (
       <div className='container'>
-        <form className="form" onSubmit={handleSubmit}>
+        <Form className="form" onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
           <input
             id="name"
@@ -80,7 +81,7 @@ export default function Contact() {
           />
           {messageTouched && !message && <span className="error">Message is required</span>}
           <button type="submit">Submit</button>
-        </form>
+        </Form>
       </div>
     );
   }
