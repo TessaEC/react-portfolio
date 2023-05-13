@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/index.css';
+import '../index.css';
 import ghIcon from '../assets/github.svg';
 import liIcon from '../assets/linkedin.svg';
 

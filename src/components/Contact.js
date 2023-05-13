@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import validateEmail from '../utils/helpers';
-import '../styles/Contact.css';
+import '../Contact.css';
 import { Form } from 'react-bootstrap';
 
 export default function Contact() {

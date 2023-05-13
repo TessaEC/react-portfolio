@@ -1,6 +1,6 @@
 import React from 'react';
 import selfPortrait from '../assets/self-portrait.jpg';
-import '../styles/AboutMe.css';
+import '../AboutMe.css';
 
 export default function AboutMe() {
     return (

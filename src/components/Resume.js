@@ -1,6 +1,6 @@
 import React from 'react';
 import resume from '../assets/TC Resume.docx';
-import '../styles/Resume.css';
+import '../Resume.css';
 import { Button } from 'react-bootstrap';
 
 export default function Resume() {
