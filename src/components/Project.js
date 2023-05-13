@@ -5,8 +5,8 @@ import picThree from '../assets/techpic3.jpg';
 import picFour from '../assets/techpic4.jpg';
 import PicFive from '../assets/techpic5.jpg';
 import picSix from '../assets/techpic6.jpg';
-import '../styles/Portfolio.css';
-import '../styles/Project.css';
+import '../Portfolio.css';
+import '../Project.css';
 
 export default function Portfolio() {
     return (
